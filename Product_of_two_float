@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()  
+{
+    float n1,n2,pro;
+    printf("Enter two float no.: ");
+    scanf("%f %f",&n1,&n2);
+    pro=n1*n2;
+    printf("Product of two float no.:%f",pro);
+    return 0;
+}
