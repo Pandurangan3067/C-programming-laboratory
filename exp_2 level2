@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int copy,cost,spend;
+    printf("Number of copies sold : ");
+    scanf("%d", &copy);
+    printf("Cost of each copy : ");
+    scanf("%d", &cost);
+    printf("Cost spent by agency on each newspaper : ");
+    scanf("%d", &spend);
+    int profit=(copy*cost)-(copy*spend)-100;
+    printf("The profit obtained : Rs.%d", profit);
+    return 0;
+}
