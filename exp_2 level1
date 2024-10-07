@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main() {
+    int language, courses;
+    printf("No. of language in section: ");
+    scanf("%d", & language);
+    courses= 2*language;
+    printf("No. of courses in section: %d", courses);
+    return 0;
+}
